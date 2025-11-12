@@ -1,0 +1,20 @@
+/* ADA Widget Styles */
+#ada-widget { position: fixed; bottom: 20px; right: 20px; z-index: 9999; font-family: Arial, sans-serif; }
+#ada-widget-button { border: unset; background: unset; }
+#ada-widget-button img { width: 60px; height: auto; object-fit: contain; }
+#ada-widget-panel { position: absolute; bottom: 70px; right: 0; width: 220px; background: white; border-radius: 20px; box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2); padding: 15px; display: none; text-align: left; font-family: 'Montserrat'; }
+#ada-widget-panel h3 { text-align: center; margin-top: 0; color: #333; font-size: 18px; font-weight: 600; margin-bottom: 16px; }
+.ada-option { margin-bottom: 16px; display: block; }
+.ada-option label { display: block; margin-bottom: 5px; font-weight: bold; color: #555; }
+.ada-button { background: unset; border: unset; width: 100%; text-align: left; font-size: 15px; display: flex; align-items: center; gap: 10px; margin: 5px 0; font-family: 'Poppins'; }
+.ada-button img { width: 25px; height: auto; object-fit: contain; }
+
+/* Accessibility classes that will be toggled */
+.grayscale { filter: grayscale(100%) !important; }
+.high-contrast { background-color: #000 !important; color: #fff !important; }
+.high-contrast a { color: #ffff00 !important; }
+.negative-contrast { filter: invert(100%) hue-rotate(180deg) !important; background-color: #fff !important; }
+.light-bg { background-color: #f8f9fa !important; color: #212529 !important; }
+.light-bg a { color: #0d6efd !important; }
+.underline-links a { text-decoration: underline !important; }
+.readable-font body { font-family: Arial, Helvetica, sans-serif !important; }

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+
+    <link href="style.css" rel="stylesheet">
+    <script src="ada.js"></script>
+
+</head>
+
+<body>
+    <!-- Your website content goes here -->
+    <div class="content">
+        <h1>Welcome to Our Website</h1>
+        <p>This is a sample paragraph with a <a href="#">link</a> to demonstrate the accessibility features.</p>
+    </div>
+
+    <!-- ADA Compliance Widget -->
+    <div id="ada-widget">
+        <button id="ada-widget-button" aria-label="Accessibility Options"><img src="images/accessability.png" alt=""></button>
+        <div id="ada-widget-panel" aria-hidden="true">
+            <h3>Accessibility Options</h3>
+
+            <div class="ada-option">
+                <label>Text Size</label>
+                <button class="ada-button" id="resize_font_less"><img src="images/resize_font_less.png" alt="resize_font_less"> Decrease Font</button>
+                <button class="ada-button" id="resize_font_add"><img src="images/resize_font_add.png" alt="resize_font_add"> Increase Font</button>
+            </div>
+
+            <div class="ada-option">
+                <label>Color Adjustments</label>
+                <button class="ada-button" id="grayscale"><img src="images/grayscale.png" alt="grayscale"> Grayscale</button>
+                <button class="ada-button" id="high_contrast"><img src="images/high_contrast.png" alt="high_contrast"> High Contrast</button>
+                <button class="ada-button" id="negative_contrast"><img src="images/negative_contrast.png" alt="negative_contrast"> Negative Contrast</button>
+                <button class="ada-button" id="light_bg"><img src="images/light_bg.png" alt="light_bg"> Light Background</button>
+            </div>
+
+            <div class="ada-option">
+                <label>Content Styling</label>
+                <button class="ada-button" id="links_underline"><img src="images/links_underline.png" alt="links_underline"> Underline Links</button>
+                <button class="ada-button" id="readable_font"><img src="images/readable_font.png" alt="readable_font"> Readable Font</button>
+            </div>
+
+            <div class="ada-option">
+                <button class="ada-button" id="reset"><img src="images/reset.png" alt="reset"> Reset All</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
